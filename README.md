@@ -57,6 +57,20 @@ git clone https://github.com/VladyslavLn/cinema-app.git
     db.user=YOUR_LOGIN
     db.password=YOUR_PASSWORD
 ```
-4. add Tomcat configuration to your project. Use `/` as your Tomcat application context
+4. Add Tomcat configuration to your project. Use `/` as your Tomcat application context
+5. Add [Lombok](https://projectlombok.org/setup/overview) plugin to your IDE
 
 After all these steps you will be able to run this project locally.
+
+Then you can log in with :
+
+`USER` roles:
+```java
+username - user@i.ua
+password - user1234
+```
+`ADMIN` roles:
+```java
+username - admin@i.ua
+password - admin123
+```
